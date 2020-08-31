@@ -1,10 +1,9 @@
 /* links */
 a{
-  color: inherit;
+  color: red;
   text-decoration: none;
 }
 a:hover{
-  color:red;
   text-decoration: underline;
 }
 p{
