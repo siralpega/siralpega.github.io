@@ -1,8 +1,8 @@
 /* Default Paragraphs */
 p {
-color: blue;
-font-size: 50px;
-font-family: Montserrat;
+  color: blue;
+  font-size: 50px;
+  font-family: Montserrat;
 }
 /* Default Links */
 a{
@@ -10,56 +10,24 @@ a{
   font-size: 25px;
   font-family: Montserrat;
 }
-/* CSS for all paragraphs with class "line" */
-p.line{
-color:orange;
+/* page-title paragraph class*/
+p.page-title{
+  color: black;
+  font-family: Arial;
+  font-size: 150px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px; 
 }
-ul.jobs {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-ul.jobs li{
-
-}
-ul.jobs li a {
-  display: block;
+/* page-content paragraph class*/
+p.page-content{
   color: green;
+  font-family: Arial;
+  font-size: 75px;
   text-align: center;
-  text-decoration: none;
-  font-size: 15px;
-  padding: 10px 10px;
+  margin-top: 25px;
+  margin-bottom: 25px; 
 }
-
-/* Forms */
-.login{
-  margin: 20px 0px;
-  padding: 0;
-  text-align: center;
-}
-.login input{
-  display:block;
-  text-align: left;
-  padding: 6px 16px;
-  margin: 0px 850px;
-}
-.login button{
-  padding: 3px 10px;
-  margin: 1px 20px;
-
-}
-.login a{
-  color: blue;
-  font-size: 15px;
-  text-decoration: none;
-  margin: 1px 90px;
-}
-p.register-error{
-  color: orange;
-  font-size: 20px;
-  text-align: center;
-}
-
 /* Navigation Bar */
 ul.nav {
   list-style-type: none;
