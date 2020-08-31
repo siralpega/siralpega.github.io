@@ -46,27 +46,11 @@ ul.nav li a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
-  float: none;
+  position: absolute;
+  top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
 }
 ul.nav li a:hover {
   background-color: #111;
-}
-ul.nav button{
-  float: right;
-  background-color: #008CBA; /* Blue */
-  border: none;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 6px;
-  cursor: pointer;
-  font-size: 20px
-}
-ul.nav button a{
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
 }
