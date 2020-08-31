@@ -1,7 +1,11 @@
 /* links */
 a{
   color: inherit;
-  font-style: italic;
+  text-decoration: none;
+}
+a:hover{
+  color:red;
+  text-decoration: underline;
 }
 p{
    font-family: Arial;
