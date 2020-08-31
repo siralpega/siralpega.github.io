@@ -1,0 +1,40 @@
+/* Default Links */
+a{
+  color: red;
+  font-size: 25px;
+  font-family: Montserrat;
+}
+/* content headers */
+p.header{
+  color: black;
+  font-family: Arial;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 40px;
+}
+/* content text */
+p.content{
+  color: green;
+  font-family: Arial;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px; 
+}
+div{
+  margin-top: 25px;
+  margin-bottom: 25px; 
+  position:fixed;
+  left:40%;
+  border-style: solid;
+  border-width: 3px;
+}
+div.about{
+  border-color:#DD546E;
+}
+div.projects{
+  border-color:#4870a0;
+}
+div.contact{
+  border-color:#73AD21;
+}
