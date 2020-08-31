@@ -1,0 +1,102 @@
+/* Default Paragraphs */
+p {
+color: blue;
+font-size: 50px;
+font-family: Montserrat;
+}
+/* Default Links */
+a{
+  color: red;
+  font-size: 25px;
+  font-family: Montserrat;
+}
+/* CSS for all paragraphs with class "line" */
+p.line{
+color:orange;
+}
+ul.jobs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul.jobs li{
+
+}
+ul.jobs li a {
+  display: block;
+  color: green;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 10px;
+}
+
+/* Forms */
+.login{
+  margin: 20px 0px;
+  padding: 0;
+  text-align: center;
+}
+.login input{
+  display:block;
+  text-align: left;
+  padding: 6px 16px;
+  margin: 0px 850px;
+}
+.login button{
+  padding: 3px 10px;
+  margin: 1px 20px;
+
+}
+.login a{
+  color: blue;
+  font-size: 15px;
+  text-decoration: none;
+  margin: 1px 90px;
+}
+p.register-error{
+  color: orange;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Navigation Bar */
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul.nav li {
+  float: left;
+}
+ul.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+ul.nav li a:hover {
+  background-color: #111;
+}
+ul.nav button{
+  float: right;
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 6px;
+  cursor: pointer;
+  font-size: 20px
+}
+ul.nav button a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
