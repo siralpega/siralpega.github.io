@@ -1,5 +1,5 @@
 a{
-  color: #EB96AA;
+  color: #D83F3F;
   text-decoration: none;
   font-style: none;
 }
@@ -15,6 +15,7 @@ p.header{
   color: black;
   font-size: 35px;
   margin-top: 5px;
+  margin-left: 15px;
   text-align: left;
 }
 /* content text */
@@ -27,7 +28,7 @@ p.content{
 }
 div{
   margin: auto;
-  width: 60%;
+  width: 40%;
   padding: 10px;
   border-style: solid;
   border-width: 3px;
