@@ -25,9 +25,9 @@ p.content{
   margin-bottom: 5px; 
 }
 div{
-  margin-top: 25px; 
-  margin-left: 25%;
-  position: relative;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
   border-style: solid;
   border-width: 3px;
 }
