@@ -1,4 +1,4 @@
-/* Default Links */
+/* links */
 a{
   color: red;
   font-style: italic;
@@ -7,23 +7,23 @@ a{
 p.header{
   color: black;
   font-family: Arial;
-  font-size: 60px;
+  font-size: 35px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 15px;
 }
 /* content text */
 p.content{
   color: green;
   font-family: Arial;
-  font-size: 25px;
+  font-size: 16px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 10px; 
 }
 div{
   margin-top: 25px; 
   position:relative;
-  left:25%;
+  /* left:25%; */
   border-style: solid;
   border-width: 3px;
 }
